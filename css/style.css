@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  /* overflow: hidden; */
+  margin: 0;
+  background: hsla(280, 95%, 5%, 1);
+}
+
+.black{
+  background: black;
+}
+h1, h2 {
+  color: white;
+}
+
+.header {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.wrapper {
+  text-align: center;
+}
