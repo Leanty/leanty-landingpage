@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 canvas#noisecanvas {
   position: absolute;
-  left: 50%;
+  left: 45%;
 }
 
 #logo {
@@ -28,6 +28,9 @@ canvas#noisecanvas {
 }
 
 @media only screen and (max-device-width: 480px) {
+  canvas#noisecanvas {
+    left: 70%;
+  }
   #logo {
     margin-bottom: 0px !important;
   }
