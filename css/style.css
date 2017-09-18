@@ -31,6 +31,9 @@ canvas#noisecanvas {
   #logo {
     margin-bottom: 0px !important;
   }
+  .footer {
+    bottom: 1% !important;
+  }
   .text {
     left: 20% !important;
     margin-top: 0% !important;
