@@ -48,7 +48,7 @@ canvas#noisecanvas {
   width: 200px;
   text-align: left;
   position: absolute;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   left: 40%;
 }
 
