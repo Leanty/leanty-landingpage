@@ -7,7 +7,7 @@ var Obj = {
     
     //color a = background color; color b = object color 
     color: {
-      a: 'white',
+      a: '#f4f4f4',
       b: 'black'
     },
     //X & Y positions
