@@ -1,15 +1,13 @@
 body {
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
   margin: 0;
-  background: hsla(280, 95%, 5%, 1);
+  left: 10px;
+  background: white;
 }
 
-.black{
-  background: black;
-}
 h1, h2, h3, h4, h5, h6 {
-  color: white;
+  color: black;
 }
 
 .header {
@@ -19,9 +17,40 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
+canvas#noisecanvas {
+  position: absolute;
+  left: 50%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .header {
+    top: 5% !important;
+  }
+  .text {
+    left: 20% !important;
+    margin-top: 0% !important;
+  }
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  width: 200px;
+  text-align: left;
+  position: absolute;
+  margin-top: 5%;
+  left: 40%;
+}
+
+.footer > .text {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  width: 200px;
+  text-align: center
+}
+
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 0;
   right: 0;
 }
