@@ -82,7 +82,7 @@ var Obj = {
     Run: function() {
       Obj.c = document.getElementById('noisecanvas');
       Obj.$ = Obj.c.getContext('2d');
-      window.addEventListener('resize', Obj.size, false);
+      window.addEventListener('resize', Obj.Size, false);
     },
     //start   
     Init: function() {
